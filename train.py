@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 # ─────────────────────────────────────────────
 #  CONFIG
 # ─────────────────────────────────────────────
-IMAGES_DIR = r"C:\Users\rsabh\Downloads\archive (2)\images"   # ← your dataset path
+IMAGES_DIR = "dataset/images"   # ← your dataset path
 MODEL_DIR  = "model"
 MODEL_PATH = os.path.join(MODEL_DIR, "emotion_model.pth")
 
